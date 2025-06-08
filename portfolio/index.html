@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">PORTFOLIO</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Projects</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <h1>Hi, I'm <span>Vinay</span><br>Kumar Nama</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT------------ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m a web development enthusiast and Pursuing B-Tech From Jaipur National University.
+                        I enjoy bringing ideas to life through clean, responsive web design and simple, effective code.
+                        I’m always learning new technologies and best practices to build better and faster websites."</p>
+
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>FrontEnd Developer</span><br>Designing Wbsite Interface</li>
+                                <li><span>SEO</span><br>ON-Page,OFF-Page,Link Building</li>
+                                <li><span>MS Office</span><br>Word,Excel,Powerpoint and Photoshop</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Fresher</span><br>Developed multiple responsive websites to practice frontend skills using HTML, CSS, JavaScript.</li>
+                                <li><span></span>Built a portfolio website, landing page, and a basic Tic Tac Toe web app.</li>
+                                <li><span></span>Hosted projects on Netlify.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024-2028</span><br>Pursuing B-Tech(CSE) from Jaipur National University  </li>
+                                <li><span>2022</span><br>12th from SVGMS Todaraisingh,dist. Tonk(Rajasthan)</li>
+                                <li><span>2020</span><br>10th from SVGMS Todaraisingh,dist. Tonk(Rajasthan)</li>
+                            </ul>
+                        </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------PROJECT----------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-calculator"></i>
+                    <h2>Age Calculator</h2>
+                    <p>An Age Calculator is a tool or program that calculates a person's age based on their date of birth and the current date.</p>
+                    <a href="https://namaagecalculator.netlify.app/">Click Here</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-dumbbell"></i>
+                    <h2>Fit Fusion GYM</h2>
+                    <p>A gym (short for gymnasium) is a place equipped with exercise machines, weights, and fitness tools where people go to improve their physical fitness, build strength, and maintain health.</p>
+                    <a href="https://fitfusionhackathon.netlify.app/">Click Here</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h2>Tic Tac Toe</h2>
+                    <p>Tic Tac Toe (also called Noughts and Crosses or X and O) is a simple two-player game played on a 3x3 grid. It’s a fun and strategic game often used to teach basic programming and logic.</p>
+                    <a href="https://vinaynama.netlify.app/">Click Here</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-calculator"></i>
+                    <h2>Calculator</h2>
+                    <p>A calculator is a device or program used to perform arithmetic and mathematical operations quickly and accurately.
+
+                    </p>
+                    <a href="https://zesty-tapioca-86e596.netlify.app/">Click Here</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-calculator"></i>
+                    <h2>Intrest Calculator</h2>
+                    <p>An Interest Calculator is a tool or program used to calculate the interest earned or paid on an amount of money over a period of time.</p>
+                    <a href="https://jocular-fox-862719.netlify.app/">Click Here</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-film"></i>
+                    <h2>Netflix Clone</h2>
+                    <p>A Netflix Clone is a web or mobile application that mimics the UI and core functionality of Netflix, the popular video streaming platform. It is often used as a project to practice full-stack development skills.</p>
+                    <a href="https://timely-palmier-435b46.netlify.app/">Click Here</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Sahara Responsive Website</h2>
+                    <p></p>
+                    <a href="https://sunny-cactus-9c5952.netlify.app/">Click Here</a>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------PORTFOLIO------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Achievements</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="html.jpg">
+                    <div class="layer">
+                        <h3>HTML Certificate</h3>
+                        <p>Received Certificate from Spoken Tutorial Program by Jaipur National University</p>
+                        <a href="HTML Certificate.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="c.jpg">
+                    <div class="layer">
+                        <h3>C Certificate</h3>
+                        <p>Received Certificate from Spoken Tutorial Program by Jaipur National University</p>
+                        <a href="C Certificate.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="haclk.jpg">
+                    <div class="layer">
+                        <h3>Hackathon Certificate</h3>
+                        <p>Hackathon particiption Certificate </p>
+                        <a href="Hackathon Certificate.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ------------------CONTACT-------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> vinaynama20@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9602628826</p>
+                    <a href="resume.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <input type="" name="Mobile Number" placeholder="Your Mobile Number" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Vinay.</p>
+        </div>
+    </div>
+    
+
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right= "0";
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxyRrma9o9XccrPRR9XIjzL5ceycOXk9gNLwEdKuR9i6LEqlWLBKWXelMtK25mtiedpJw/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
